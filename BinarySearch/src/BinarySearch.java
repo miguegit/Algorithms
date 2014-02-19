@@ -1,4 +1,3 @@
-
 public class BinarySearch {
 
 	
@@ -19,7 +18,7 @@ public class BinarySearch {
 
 	private static int binarySearch(int[] elements, int objetive, int minimum_index, int maximum_index){
 		if(maximum_index<minimum_index){
-			return -1;	//The indexes are not correct
+			return -1;	//The indexs are not correct
 		}else{
 			int mid_index = (minimum_index+maximum_index)/2;
 			if(elements[mid_index] == objetive){
